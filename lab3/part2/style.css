@@ -60,4 +60,35 @@ letter-spacing: 1px;
 }
 
 section h2 + p {
-text-indent: 3rem;
+text-indent: 2rem;
+}
+
+p,
+li {
+line-height:1.8;
+letter-spacing:0.5px;
+}
+
+/*Link Customization*/
+
+a {outline: none;
+}
+
+a[href*="http"] {
+padding-right: 16px;
+background: url("external-link-52.png") no-repeat right center;
+background-size 14px 14px;
+}
+
+a:link,
+a:visited {
+colour: #aa6666
+}
+
+a:focus,
+a:hover {
+text-decoration: none;
+colour: #773333
+}
+
+/* List Customization */
