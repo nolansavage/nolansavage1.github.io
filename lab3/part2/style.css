@@ -92,3 +92,18 @@ colour: #773333
 }
 
 /* List Customization */
+
+ul,
+ol {
+margin: 2rem 0;
+}
+
+ul {
+list-style-type: square;
+}
+
+ol {
+list-style-type: lower-roman;
+}
+
+
